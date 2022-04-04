@@ -180,3 +180,11 @@
 [2022-04-04 21:58:29,895] {logging_mixin.py:109} INFO - [2022-04-04 21:58:29,895] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
 [2022-04-04 21:58:29,895] {logging_mixin.py:109} INFO - [2022-04-04 21:58:29,895] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
 [2022-04-04 21:58:29,908] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.124 seconds
+[2022-04-04 21:58:59,987] {processor.py:163} INFO - Started process (PID=1543) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-04-04 21:58:59,989] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-04-04 21:58:59,990] {logging_mixin.py:109} INFO - [2022-04-04 21:58:59,990] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-04-04 21:59:00,014] {processor.py:652} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-04-04 21:59:00,059] {logging_mixin.py:109} INFO - [2022-04-04 21:59:00,059] {dag.py:2398} INFO - Sync 2 DAGs
+[2022-04-04 21:59:00,090] {logging_mixin.py:109} INFO - [2022-04-04 21:59:00,090] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_child to None
+[2022-04-04 21:59:00,090] {logging_mixin.py:109} INFO - [2022-04-04 21:59:00,090] {dag.py:2937} INFO - Setting next_dagrun for example_external_task_marker_parent to None
+[2022-04-04 21:59:00,107] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.125 seconds
